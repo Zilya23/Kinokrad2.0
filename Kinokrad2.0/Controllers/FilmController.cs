@@ -11,12 +11,12 @@ namespace Kinokrad2._0.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View(Data.GetFilms());
         }
 
-        public IActionResult Film()
+        public IActionResult GetID(int id)
         {
-            return View(Data.GetFilms());
+            return View(Data.GetFilmID(id));
         }
     }
 }

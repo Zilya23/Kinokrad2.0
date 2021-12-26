@@ -10,7 +10,7 @@
         <div class="card h-100">
             <div class="card-body">
                 <h2 class="card-title text-center">
-                <a href="@film.Title" target=_blank@film.Title></a>
+                    <a asp-controller="Film" asp-action="GetID(@film.ID_Film)">@film.Title</a>
                 </h2>
             </div>
         </div>
