@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleInterface", "ConsoleInterface\ConsoleInterface.csproj", "{2D38CB3A-FF52-403A-B23A-8D611ED6511A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Interface1", "API_Interface1\API_Interface1.csproj", "{8B91C522-FA32-4A39-9A6B-5DDC2A631739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Interface1", "API_Interface1\API_Interface1.csproj", "{8B91C522-FA32-4A39-9A6B-5DDC2A631739}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
