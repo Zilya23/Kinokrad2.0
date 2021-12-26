@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinokrad2.0", "Kinokrad2.0\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{8C21B1ED-8C34-4374-BC29-D9B026AE8CC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInterface", "ConsoleInterface\ConsoleInterface.csproj", "{2D38CB3A-FF52-403A-B23A-8D611ED6511A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleInterface", "ConsoleInterface\ConsoleInterface.csproj", "{2D38CB3A-FF52-403A-B23A-8D611ED6511A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Interface1", "API_Interface1\API_Interface1.csproj", "{8B91C522-FA32-4A39-9A6B-5DDC2A631739}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2D38CB3A-FF52-403A-B23A-8D611ED6511A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D38CB3A-FF52-403A-B23A-8D611ED6511A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D38CB3A-FF52-403A-B23A-8D611ED6511A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B91C522-FA32-4A39-9A6B-5DDC2A631739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B91C522-FA32-4A39-9A6B-5DDC2A631739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B91C522-FA32-4A39-9A6B-5DDC2A631739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B91C522-FA32-4A39-9A6B-5DDC2A631739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
