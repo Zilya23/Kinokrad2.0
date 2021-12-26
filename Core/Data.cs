@@ -31,6 +31,12 @@ namespace Core
                                                         $"where c.ID_Collection = {id}").AsList();
         }
 
+        public static List<Film> GetFilmID(int id)
+        {
+            return connection.Query<Film>("select * from [dbo].[Film] f " +
+                                           $"where f.ID_Film = {id}").AsList();
+        }
+
         public static void AddCollection(Collection collection)
         {
             connection.Query("insert into [dbo].[Collection] ([Name]) " +

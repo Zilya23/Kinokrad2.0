@@ -10,29 +10,22 @@ namespace API_Interface1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FilmController : ControllerBase
+    public class CollectionController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<Film> Get()
+        public IEnumerable<Collection> Get()
         {
-            return Data.GetFilms();
+            return Data.GetCollections();
         }
 
         [HttpGet("{id}")]
         public ActionResult<List<Film>> Get(int id)
         {
-            var result = Data.GetFilmID(id);
+            var result = Data.GetFilm_Collections(id);
             if (result == null)
                 return NotFound();
 
             return result;
-        }
-
-        [HttpPost]
-        public IActionResult Create(Film film)
-        {
-            Data.AddFilm(film);
-            return NoContent();
         }
     }
 }
