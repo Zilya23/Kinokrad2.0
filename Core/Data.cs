@@ -8,7 +8,7 @@ using System.Configuration;
 
 namespace Core
 {
-    class Data
+    public static class Data
     {
         private static string coonstr = ConfigurationManager.ConnectionStrings["KinoCollection"].ConnectionString;
         private static IDbConnection connection = new SqlConnection(coonstr);

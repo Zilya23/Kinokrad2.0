@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core
 {
-    class Film_Collection
+    public class Film_Collection
     {
         public int ID_FC { get; set; }
         public int ID_Film { get; set; }

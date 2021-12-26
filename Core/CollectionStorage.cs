@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core
 {
-    class CollectionStorage
+    public class CollectionStorage
     {
         public static List<Collection> collections { get; set; } = Data.GetCollections();
 

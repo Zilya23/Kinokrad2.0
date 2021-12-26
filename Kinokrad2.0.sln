@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinokrad2.0", "Kinokrad2.0\Kinokrad2.0.csproj", "{081FC633-A449-4C34-BE41-7E3902F45A69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinokrad2.0", "Kinokrad2.0\Kinokrad2.0.csproj", "{081FC633-A449-4C34-BE41-7E3902F45A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{8C21B1ED-8C34-4374-BC29-D9B026AE8CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{8C21B1ED-8C34-4374-BC29-D9B026AE8CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInterface", "ConsoleInterface\ConsoleInterface.csproj", "{2D38CB3A-FF52-403A-B23A-8D611ED6511A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8C21B1ED-8C34-4374-BC29-D9B026AE8CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C21B1ED-8C34-4374-BC29-D9B026AE8CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C21B1ED-8C34-4374-BC29-D9B026AE8CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D38CB3A-FF52-403A-B23A-8D611ED6511A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D38CB3A-FF52-403A-B23A-8D611ED6511A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D38CB3A-FF52-403A-B23A-8D611ED6511A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D38CB3A-FF52-403A-B23A-8D611ED6511A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
