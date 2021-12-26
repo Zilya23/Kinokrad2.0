@@ -10,6 +10,7 @@ namespace Core
 {
     public static class Data
     {
+        //data
         private static string coonstr = ConfigurationManager.ConnectionStrings["KinoCollection"].ConnectionString;
         private static IDbConnection connection = new SqlConnection(coonstr);
         public static List<Film> GetFilms()
