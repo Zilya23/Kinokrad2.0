@@ -19,9 +19,16 @@ namespace Kinokrad2._0.Controllers
             return View(Data.GetFilmID(ID_Film));
         }
 
-        //public IActionResult GetFilmID(int id)
-        //{
+        public IActionResult Add()
+        {
+            return View();
+        }
 
-        //}
+        [HttpPost]
+        public IActionResult Add(Film film)
+        {
+            Data.AddFilm(film);
+            return RedirectToAction("Index");
+        }
     }
 }

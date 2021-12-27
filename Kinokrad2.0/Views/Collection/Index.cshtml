@@ -3,6 +3,12 @@
 @model List<Collection>
 
 
+    <div class="row justify-content-end">
+        <a class="btn btn-primary" asp-controller="Collection"
+           asp-action="Add" role="button">Add collection</a>
+    </div>
+    <br/>
+
     <div class="row">
         @foreach (var collect in Model)
         {

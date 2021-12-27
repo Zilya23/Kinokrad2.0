@@ -3,17 +3,36 @@
 
 @model List<Film>
 
-               <div class="row">
-                   @foreach (var film in Model)
-                   {
-                       <div class="col-md-4 mb-5">
-                           <div class="card h-100">
-                               <div class="card-body">
-                                   <h2 class="card-title text-center">
-                                       @film.Title
-                                   </h2>
-                               </div>
-                           </div>
-                       </div>
-                   }
-               </div>
+    <div class="row justify-content-end">
+        <a class="btn btn-primary" asp-controller="Collection"
+           asp-action="AddFilm" role="button">Add film</a>
+    </div>
+    <br />
+
+    <div class="row">
+        @foreach (var film in Model)
+        {
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div>
+                            <img class="card-img-top" src="@film.Poster"
+                                 alt="@film.Poster"/>
+                        </div>
+
+                        <h2 class="card-title text-center">
+                            @film.Title
+                        </h2>
+                        <br />
+                        <div class="text-center">
+                            <a class="btn btn-danger" asp-controller="Collection"
+                               asp-action="Remove" asp-route-ID_Film="@film.ID_Film" asp-route-ID_Collection="@film.ID_Collection"
+                               role="button">
+                                Remove
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>

@@ -23,7 +23,7 @@ namespace Core
 
         public static List<Film> GetFilm_Collections(int id)
         {
-            return connection.Query<Film>("select f.Title, f.ID_Film, f.Duration, f.Director, f.Country from [dbo].[Film_Collection] fc" +
+            return connection.Query<Film>("select f.Title, f.ID_Film, f.Duration, f.Director, f.Country, f.Poster, c.ID_Collection from [dbo].[Film_Collection] fc" +
                                                         " join [dbo].[Film] f " +
                                                         "on fc.ID_Film = f.ID_Film " +
                                                         " join [dbo].[Collection] c " +

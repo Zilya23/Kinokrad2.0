@@ -12,6 +12,7 @@ namespace Core
         public string Director { get; set; }
         public int Duration { get; set; }
         public string Poster { get; set; }
+        public int ID_Collection { get; set; }
     }
     
 }
