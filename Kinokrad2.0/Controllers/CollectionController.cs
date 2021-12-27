@@ -13,5 +13,10 @@ namespace Kinokrad2._0.Controllers
         {
             return View(Data.GetCollections());
         }
+
+        public IActionResult GetFilm_Collections(int ID_Collection)
+        {
+            return View(Data.GetFilm_Collections(ID_Collection));
+        }
     }
 }
