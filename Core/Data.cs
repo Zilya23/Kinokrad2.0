@@ -56,8 +56,8 @@ namespace Core
         public static void AddFilm(Film film)
         {
             connection.Query("insert into[dbo].[Film] " +
-                            " ([Title], [Country], [Duration], [Director]) " +
-                            $"values ('{film.Title}', '{film.Country}', '{film.Duration}', '{film.Director}')");
+                            " ([Title], [Country], [Duration], [Director], [Poster]) " +
+                            $"values ('{film.Title}', '{film.Country}', '{film.Duration}', '{film.Director}' , '{"/img/stok.jpg"}')");
         }
 
         public static void UpdateFilm(int id, Film film)

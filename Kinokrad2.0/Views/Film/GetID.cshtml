@@ -3,8 +3,15 @@
 
 @model List<Film>
 
-
-<H2>@Model[0].Title</H2>
-<p>Страна создания фильма: @Model[0].Country</p>
-<p>Режиссер @Model[0].Director</p>
-<p>Продлжительность @Model[0].Duration мин.</p>
+<div>
+    <div>
+        <img width="350" height="500" class="card-img-left" src="@Model[0].Poster"
+             alt="@Model[0].Poster" />
+    </div>
+    <div class=" align-right">
+        <H2>@Model[0].Title</H2>
+        <p>Страна: @Model[0].Country</p>
+        <p>Режиссер: @Model[0].Director</p>
+        <p>Продлжительность: @Model[0].Duration мин.</p>
+    </div>
+</div>
