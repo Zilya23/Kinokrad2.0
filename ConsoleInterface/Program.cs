@@ -12,7 +12,7 @@ namespace ConsoleInterface
             Console.WriteLine("Фильмы");
             foreach (var f in fil)
             {
-                Console.WriteLine(f.ID_Film + " " + f.Title + " " + f.Country + " " + f.Duration);
+                Console.WriteLine(f.ID_Film + " " + f.Title + " " + f.Country + " " + f.Duration);      //Можно улучшить: Использование форматированной строки (Мясников, Шакиров)
             }
 
             var col = Data.GetCollections();
@@ -22,7 +22,7 @@ namespace ConsoleInterface
                 Console.WriteLine(c.ID_Collection + " " + c.Name);
             }
 
-            for (int s = 1; s == 1;)
+            for (int s = 1; s == 1;)        //Обязательно исправить Неудачное использование цикла for (Мясников, Шакиров)
             {
                 Console.WriteLine("Если хотите открыть колллекции введите - 0, если добавить коллекцию - 1, если добавить фильм - 2, если хотите закончить - 3");
                 int decision = Convert.ToInt32(Console.ReadLine());

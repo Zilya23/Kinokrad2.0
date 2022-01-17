@@ -9,7 +9,7 @@ namespace API_Interface1.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController : ControllerBase     //Обязательно исправить Контроллер не относится к теме проекта
     {
         private static readonly string[] Summaries = new[]
         {

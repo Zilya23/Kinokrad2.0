@@ -21,7 +21,7 @@ namespace Core
                 Console.WriteLine(c.ID_Collection + " " + c.Name);
             }
 
-            for (int s = 1; s == 1;)
+            for (int s = 1; s == 1;)        // Обязательно исправить! Неверное использование цикла for, лучше использовать while (Мясников)
             {
                 Console.WriteLine("Если хотите открыть колллекции введите - 0, если добавить коллекцию - 1, если добавить фильм - 2, если хотите закончить - 3");
                 int decision = Convert.ToInt32(Console.ReadLine());

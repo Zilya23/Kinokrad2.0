@@ -8,7 +8,7 @@ using System.Configuration;
 
 namespace Core
 {
-    public static class Data
+    public static class Data        //Можно Улучшить: Неоптимальное использование запросов к базе данных (Мясников, Шакиров)
     {
         private static string coonstr = ConfigurationManager.ConnectionStrings["KinoCollection"].ConnectionString;
         private static IDbConnection connection = new SqlConnection(coonstr);

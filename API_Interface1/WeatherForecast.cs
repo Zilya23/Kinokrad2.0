@@ -2,7 +2,7 @@ using System;
 
 namespace API_Interface1
 {
-    public class WeatherForecast
+    public class WeatherForecast    //Обязательно исправить Класс не относится к теме проекта
     {
         public DateTime Date { get; set; }
 

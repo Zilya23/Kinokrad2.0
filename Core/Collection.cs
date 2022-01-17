@@ -7,7 +7,7 @@ using System.Configuration;
 
 namespace Core
 {
-    public class Collection
+    public class Collection     //Можно улучшить: Использовать конструктор экземпляра класса (Мясников, Шакиров)
     {
         public int ID_Collection { get; set; }
         public string Name { get; set; }

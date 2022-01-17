@@ -6,7 +6,7 @@ namespace Core
 {
     public class Film
     {
-        public int ID_Film { get; set; }
+        public int ID_Film { get; set; }    //Можно улучшить: Не соответствует стандарту наименования полей :: Шакиров
         public string Title { get; set; }
         public string Country { get; set; }
         public string Director { get; set; }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core
 {
-    class FilmStorage
+    class FilmStorage   //Исправить обязательно: Пустой класс :: Мясников
     {
     }
 }

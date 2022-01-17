@@ -5,9 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Core;
 
-namespace Kinokrad2._0.Controllers
+namespace Kinokrad2._0.Controllers      //Исправить плохое название проекта
 {
-    public class CollectionController : Controller
+    public class CollectionController : Controller      //Хорошо: легкие контроллеры (Мясников, Шакиров)
+    {
     {
         public IActionResult Index()
         {
