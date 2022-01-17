@@ -9,7 +9,7 @@ namespace Kinokrad2._0.Controllers      //Исправить плохое наз
 {
     public class CollectionController : Controller      //Хорошо: легкие контроллеры (Мясников, Шакиров)
     {
-    {
+    
         public IActionResult Index()
         {
             return View(Data.GetCollections());
